@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultants</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="consultants.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        
+        <h3 id="heading"><i class="fa-solid fa-dove"></i>PeacePoint.in</h3>
+        <a href="homepage.html" id="home"><i class="fas fa-home"></i></a>
+    </div>
+    <div class="container">
+        <h1>Meet Your Psychologist</h1>
+
+        <div class="psychologist-info">
+            <h2>Miss Priyanka Behera</h2>
+            <img src="priyanka-behera.jpg" alt="Miss Priyanka Behera">
+            <p><span class="specialization">Specialization:</span> Clinical Psychology</p>
+            <p>Miss Priyanka Behera has extensive experience in clinical psychology, specializing in cognitive-behavioral therapy and stress management.</p>
+            <div class="booking-btn">
+                <button onclick="document.getElementById('booking-form').style.display='block'">Book a Slot</button>
+            </div>
+            <!-- Booking Form -->
+            <div id="booking-form" class="booking-form" style="display: none;">
+                
+                <form id="form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="datetime">Preferred Date and Time:</label>
+                    <input type="datetime-local" id="datetime" name="datetime" required>
+        
+                    <button type="submit">Submit</button>
+                </form>
+        
+                <p class="confirmation-note">Please note that the date and time confirmation will be sent to your email address.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h1>Meet Your Yoga Instructors</h1>
+
+        <!-- Instructor 1: Anurag Yadav -->
+        <div class="instructor-info">
+            <img src="Anurag-Yadav.jpeg" alt="Anurag Yadav">
+            <h2></h2>UTKARSH SINGH
+            <p><strong>Years of Experience:</strong> 5</p>
+            <p><strong>Certified From:</strong> Yoga Alliance</p>
+            <p>Additional Info: Specializes in Vinyasa and Hatha yoga with a focus on balance and flexibility.</p>
+            <div class="booking-btn">
+                <button onclick="document.getElementById('booking-form1').style.display='block'">Book a Slot</button>
+            </div>
+            <!-- Booking Form for Anurag Yadav -->
+            <div id="booking-form1" class="booking-form" style="display: none;">
+                <h3>Book a Slot with UTKARSH SINGH</h3>
+                <form id="form1">
+                    <label for="name1">Name:</label>
+                    <input type="text" id="name1" name="name1" required>
+
+                    <label for="phone1">Phone:</label>
+                    <input type="tel" id="phone1" name="phone1" required>
+
+                    <label for="email1">Email:</label>
+                    <input type="email" id="email1" name="email1" required>
+
+                    <label for="datetime1">Preferred Date and Time:</label>
+                    <input type="datetime-local" id="datetime1" name="datetime1" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+                <p class="confirmation-note">Please note that the date and time confirmation will be sent to your email address.</p>
+            </div>
+        </div>
+
+        <!-- Instructor 2: Ankit Raj -->
+        <div class="instructor-info">
+            <img src="Ankit-Raj.jpeg" alt="Ankit Raj">
+            <h2>AYUSH  RAJ  SINS</h2>
+            <p><strong>Years of Experience:</strong> 3</p>
+            <p><strong>Certified From:</strong> International Yoga Federation</p>
+            <p>Additional Info: Focuses on Power Yoga and Dynamic Flow classes to improve strength and endurance.</p>
+            <div class="booking-btn">
+                <button onclick="document.getElementById('booking-form2').style.display='block'">Book a Slot</button>
+            </div>
+            <!-- Booking Form for Ankit Raj -->
+            <div id="booking-form2" class="booking-form" style="display: none;">
+                <h3>Book a Slot with AYUSH RAJ</h3>
+                <form id="form2">
+                    <label for="name2">Name:</label>
+                    <input type="text" id="name2" name="name2" required>
+
+                    <label for="phone2">Phone:</label>
+                    <input type="tel" id="phone2" name="phone2" required>
+
+                    <label for="email2">Email:</label>
+                    <input type="email" id="email2" name="email2" required>
+
+                    <label for="datetime2">Preferred Date and Time:</label>
+                    <input type="datetime-local" id="datetime2" name="datetime2" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+                <p class="confirmation-note">Please note that the date and time confirmation will be sent to your email address.</p>
+            </div>
+        </div>
+
+        <!-- Instructor 3: Aditya (Meditation Expert) -->
+        <div class="instructor-info">
+            <img src="Aditya.jpeg" alt="Aditya">
+            <h2>ANSH MIA KHALIFA</h2>
+            <p><strong>Years of Experience:</strong> 2</p>
+            <p><strong>Certified From:</strong> Center for Yoga Studies</p>
+            <p>Additional Info: Specializes in meditation techniques and mindfulness practices for stress reduction and mental clarity.</p>
+            <div class="booking-btn">
+                <button onclick="document.getElementById('booking-form3').style.display='block'">Book a Slot</button>
+            </div>
+            <!-- Booking Form for Aditya -->
+            <div id="booking-form3" class="booking-form" style="display: none;">
+                <h3>Book a Slot with Aditya</h3>
+                <form id="form3">
+                    <label for="name3">Name:</label>
+                    <input type="text" id="name3" name="name3" required>
+
+                    <label for="phone3">Phone:</label>
+                    <input type="tel" id="phone3" name="phone3" required>
+
+                    <label for="email3">Email:</label>
+                    <input type="email" id="email3" name="email3" required>
+
+                    <label for="datetime3">Preferred Date and Time:</label>
+                    <input type="datetime-local" id="datetime3" name="datetime3" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+                <p class="confirmation-note">Please note that the date and time confirmation will be sent to your email address.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Booking Form -->
+    <div id="booking-form" class="booking-form" style="display: none;">
+        <h3 id="booking">Book a Slot</h3>
+        <form id="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="datetime">Preferred Date and Time:</label>
+            <input type="datetime-local" id="datetime" name="datetime" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p class="confirmation-note">Please note that the date and time confirmation will be sent to your email address.</p>
+    </div>
+    <script src="script.js"></script>
+    <footer class="footer">
+        &#169; 2024 PeacePoint.com, INC , or its afflicated
+    </footer>
+</body>

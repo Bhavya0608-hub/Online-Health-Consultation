@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Instructors</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            font-size: 18px; /* Increase the font size for all text */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            background-color: #f4f4f4; /* Light background color */
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff; /* White background for main content */
+            border-radius: 8px; /* Rounded corners for the container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+        }
+        h1 { 
+            text-align: center; 
+            margin-bottom: 20px; /* Space below heading */
+        }
+        .instructor-info { 
+            margin-bottom: 30px; /* Space between instructors */
+            padding: 20px; 
+            border-bottom: 1px solid #ddd; /* Divider line between instructors */
+        }
+        .instructor-info img { 
+            width: 150px; 
+            height: auto; 
+            border-radius: 8px; 
+            float: left; /* Float image to the left */
+            margin-right: 20px; /* Space between image and text */
+        }
+        .instructor-info h2 {
+            margin-top: 0; /* Remove top margin from h2 */
+        }
+        .booking-btn {
+            margin: 20px 0; /* Space above and below button */
+            text-align: center; /* Center the button */
+        }
+        .booking-btn button {
+            font-size: 18px; /* Increase the font size */
+            padding: 15px 30px; /* Increase the button size */
+            background-color: lightcoral; /* Light red background color */
+            color: white; /* White text color */
+            border: none; /* Remove default border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s; /* Smooth background color transition */
+        }
+        .booking-btn button:hover {
+            background-color: coral; /* Slightly darker red on hover */
+        }
+        .booking-form {
+            margin-top: 20px; /* Space above the form */
+        }
+        .booking-form label {
+            font-size: 22px; /* Increase the font size of labels */
+            display: block; /* Ensure labels appear on separate lines */
+            margin-top: 10px; /* Add space above each label */
+        }
+        .booking-form input {
+            font-size: 18px; /* Increase the font size of input text */
+            margin-bottom: 15px; /* Add space below each input */
+            padding: 10px; /* Add padding inside the input fields */
+            width: 100%; /* Full width for input fields */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        }
+        .booking-form button {
+            font-size: 24px; /* Larger font size for submit button */
+            padding: 15px 30px; /* Increase button size */
+            background-color: lightgreen; /* Light green background for button */
+            color: white; /* White text color */
+            border: none; /* Remove default border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s; /* Smooth background color transition */
+        }
+        .booking-form button:hover {
+            background-color: green; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meet Your Yoga Instructors</h1>
+
+        <!-- Instructor 1: Anurag Yadav -->
+        <div class="instructor-info">
+            <img src="Anurag-Yadav.jpeg" alt="Anurag Yadav">
+            <h2>Anurag Yadav</h2>
+            <p><strong>Years of Experience:</strong> 5</p>
+            <p><strong>Certified From:</strong> Yoga Alliance</p>
+            <p>Additional Info: Specializes in Vinyasa and Hatha yoga with a focus on balance and flexibility.</p>
+            <div class="booking-btn">
+                <button onclick="document.getElementById('booking-form1').style.display='block'">Book a Slot</button>
+            </div>
+            <!-- Booking Form for Anurag Yadav -->
+            <div id="booking-form1" class="booking-form" style="display: none;">
+                <h3>Book a Slot with Anurag Yadav</h3>
+                <form id="form1">
+                    <label for="name1">Name:</label>
+                    <input type="text" id="name1" name="name1" required>
+
+                    <label for="phone1">Phone:</label>
+                    <input type="tel" id="phone1" name="phone1" required>
+
+                    <label for="email1">Email:</label>
+                    <input type="email" id="email1" name="email1" required>
+
+                    <label for="datetime1">Preferred Date and Time:</label>
+                    <input type="datetime-local" id="datetime1" name="datetime1" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+                <p class="confirmation-note">Please note that the date and time confirmation will be sent to your email address.</p>
+            </div>
+        </div>
+
+        <!-- Instructor 2: Ankit Raj -->
+        <div class="instructor-info">
+            <img src="Ankit-Raj.jpeg" alt="Ankit Raj">
+            <h2>Ankit Raj</h2>
+            <p><strong>Years of Experience:</strong> 3</p>
+            <p><strong>Certified From:</strong> International Yoga Federation</p>
+            <p>Additional Info: Focuses on Power Yoga and Dynamic Flow classes to improve strength and endurance.</p>
+            <div class="booking-btn">
+                <button onclick="document.getElementById('booking-form2').style.display='block'">Book a Slot</button>
+            </div>
+            <!-- Booking Form for Ankit Raj -->
+            <div id="booking-form2" class="booking-form" style="display: none;">
+                <h3>Book a Slot with Ankit Raj</h3>
+                <form id="form2">
+                    <label for="name2">Name:</label>
+                    <input type="text" id="name2" name="name2" required>
+
+                    <label for="phone2">Phone:</label>
+                    <input type="tel" id="phone2" name="phone2" required>
+
+                    <label for="email2">Email:</label>
+                    <input type="email" id="email2" name="email2" required>
+
+                    <label for="datetime2">Preferred Date and Time:</label>
+                    <input type="datetime-local" id="datetime2" name="datetime2" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+                <p class="confirmation-note">Please note that the date and time confirmation will be sent to your email address.</p>
+            </div>
+        </div>
+
+        <!-- Instructor 3: Aditya (Meditation Expert) -->
+        <div class="instructor-info">
+            <img src="Aditya.jpeg" alt="Aditya">
+            <h2>Aditya</h2>
+            <p><strong>Years of Experience:</strong> 2</p>
+            <p><strong>Certified From:</strong> Center for Yoga Studies</p>
+            <p>Additional Info: Specializes in meditation techniques and mindfulness practices for stress reduction and mental clarity.</p>
+            <div class="booking-btn">
+                <button onclick="document.getElementById('booking-form3').style.display='block'">Book a Slot</button>
+            </div>
+            <!-- Booking Form for Aditya -->
+            <div id="booking-form3" class="booking-form" style="display: none;">
+                <h3>Book a Slot with Aditya</h3>
+                <form id="form3">
+                    <label for="name3">Name:</label>
+                    <input type="text" id="name3" name="name3" required>
+
+                    <label for="phone3">Phone:</label>
+                    <input type="tel" id="phone3" name="phone3" required>
+
+                    <label for="email3">Email:</label>
+                    <input type="email" id="email3" name="email3" required>
+
+                    <label for="datetime3">Preferred Date and Time:</label>
+                    <input type="datetime-local" id="datetime3" name="datetime3" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+                <p class="confirmation-note">Please note that the date and time confirmation will be sent to your email address.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Optional JavaScript for form handling
+        document.querySelectorAll('form').forEach(form => {
+            form.addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent form submission
+                alert('Your booking has been submitted!'); // Show confirmation
+                form.style.display = 'none'; // Hide form after submission
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 80px;
+    /* background-image: url(navb.jpeg); */
+    background-color:rgb(216, 113, 10);
+    display: flex;
+    
+}
+.navbar a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+#home{
+    margin-left: 45px;
+    
+}
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #000;
+    /* background-image: url('body.jpeg'); */
+    /* padding: 20px; */
+}
+
+/* Header styling */
+#heading {
+    color:white;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+/* Navigation styling */
+.nav {
+    margin-top:45px;
+    display: flex;
+    
+    justify-content: space-evenly;
+    /* margin-bottom: 20px; */
+    height: 400px;
+    /* background-color: black; */
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+}
+
+/* .nav {
+    margin: 0 10px;
+} */
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+/* General content styling */
+p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2980b9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+#tab1 {
+    height: 85px;
+    width: 400px;
+    line-height: 75px;
+    text-align: center;
+    background-color:bisque;
+    background-image: url('meditation.jpeg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #000;
+}
+#tab2 {
+    height: 85px;
+    width: 400px;
+    line-height: 75px;
+    text-align: center;
+    background-color:bisque;
+    background-image: url('gamee.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #000;
+}
+#tab3 {
+    height: 85px;
+    width: 400px;
+    line-height: 75px;
+    text-align: center;
+    background-color:bisque;
+    background-image: url('consultant.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #000;
+}
+#tab4 {
+    height: 85px;
+    width: 400px;
+    line-height: 75px;
+    text-align: center;
+    background-color:bisque;
+    background-image: url('surveys.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #000;
+}
+#tab5 {
+    height: 85px;
+    width: 400px;
+    line-height: 75px;
+    text-align: center;
+    background-color:bisque;
+    background-image: url('students.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #000;
+}
+.footer{
+    margin-top: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #000;
+}
+#h2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:white;
+    text-align: center;
+    
+}
+
+#h2:hover {
+    border-bottom: 2px solid black;
+}
+#inst{
+    margin-top: 10px;
+    color: white;
+
+}

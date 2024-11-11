@@ -1,0 +1,100 @@
+body { 
+    font-family: Arial, sans-serif; 
+    font-size: 18px; /* Increase the font size for all text */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f4; /* Light background color */
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background for main content */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+h1 { 
+    text-align: center; 
+    margin-bottom: 20px; /* Space below heading */
+}
+.psychologist-info { 
+    /* margin: 20px; */
+    margin-bottom: 30px; /* Space between instructors */
+    padding: 20px; 
+    border-bottom: 1px solid #ddd; /* Divider line between instructors */ 
+}
+.psychologist-info img { 
+    width: 150px; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.specialization {
+    font-weight: bold; /* Make the text bold */
+}
+
+.instructor-info { 
+    margin-bottom: 30px; /* Space between instructors */
+    padding: 20px; 
+    border-bottom: 1px solid #ddd; /* Divider line between instructors */
+}
+.instructor-info img { 
+    width: 150px; 
+    height: auto; 
+    border-radius: 8px; 
+    float: left; /* Float image to the left */
+    margin-right: 20px; /* Space between image and text */
+}
+.instructor-info h2 {
+    margin-top: 0; /* Remove top margin from h2 */
+}
+.booking-btn {
+    margin: 20px 0; /* Space above and below button */
+    text-align: center; /* Center the button */
+}
+.booking-btn button {
+    font-size: 18px; /* Increase the font size */
+    padding: 15px 30px; /* Increase the button size */
+    background-color: lightcoral; /* Light red background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+.booking-btn button:hover {
+    background-color: coral; /* Slightly darker red on hover */
+}
+.booking-form {
+    margin-top: 20px; /* Space above the form */
+}
+.booking-form label {
+    font-size: 22px; /* Increase the font size of labels */
+    display: block; /* Ensure labels appear on separate lines */
+    margin-top: 10px; /* Add space above each label */
+}
+.booking-form input {
+    font-size: 18px; /* Increase the font size of input text */
+    margin-bottom: 15px; /* Add space below each input */
+    padding: 10px; /* Add padding inside the input fields */
+    width: 100%; /* Full width for input fields */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.booking-form button {
+    font-size: 24px; /* Larger font size for submit button */
+    padding: 15px 30px; /* Increase button size */
+    background-color: lightgreen; /* Light green background for button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+.booking-form button:hover {
+    background-color: green; /* Darker green on hover */
+}
+
+
+
+
