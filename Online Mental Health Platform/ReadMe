@@ -1,0 +1,97 @@
+Online Mental Health Consultancy
+
+Welcome to the Online Mental Health Consultancy project, designed to provide mental health resources, consultations, and interactive games for users. The platform offers a range of tools aimed at supporting mental well-being, such as relaxation exercises, cognitive training games, and access to mental health professionals.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Project Overview
+
+This project is an online platform designed to offer mental health support through various features. Users can:
+Engage in meditation and yoga exercises.
+Play interactive games designed to improve cognitive function and reduce stress.
+Fill out mental health surveys to monitor their well-being.
+Book consultations with mental health professionals.
+Learn about mental health topics and self-care practices.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Technologies Used
+
+HTML5: Structure of the web pages.
+CSS3: Styling for the user interface (with consultant.css and style.css).
+JavaScript: Functionality for interactive games and dynamic content (with files like flappybird.js, memoryGame.js, tetris.js, and script.js).
+Python: Backend script for certain functionalities (sih_idea.py).
+Web Browser: Supports running HTML, CSS, and JavaScript.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+File Structure
+
+Here's an overview of the key files used in the project:
+
+
+/project-folder
+│
+├── index.html                # Homepage for the platform
+├── homepage.html             # Main landing page
+├── student.html              # Student consultation page
+├── surveys.html              # Mental health surveys page
+├── yoga.html                 # Yoga exercises page
+├── meditationyoga.html       # Combined meditation and yoga page
+├── memory.html               # Memory exercises page
+├── tetris.html               # Tetris game page
+├── flappybird.html           # Flappy Bird game page
+├── games.html                # All games overview page
+├── yoga.instructor.html      # Yoga instructor interface
+│
+├── consultant.css            # CSS for consultant pages
+├── style.css                 # Main site-wide CSS
+├── flappybird.js             # JavaScript for Flappy Bird game
+├── memoryGame.js             # JavaScript for memory game
+├── tetris.js                 # JavaScript for Tetris game
+├── script.js                 # General script for interactivity
+├── sih_idea.py               # Python backend script for certain functionalities
+│
+└── README.md                 # Project documentation (this file)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+How to Run
+
+To run this project locally:
+
+Clone this repository to your local machine:
+
+
+git clone https://github.com/your-repo/mental-health-consultancy.git
+Navigate to the project directory:
+
+cd mental-health-consultancy
+Open any of the HTML files in a web browser (e.g., index.html, homepage.html, etc.) to start exploring the platform.
+
+Example:
+
+open index.html
+(Optional) If you have Python installed, you can run the Python script for additional functionality:
+
+python sih_idea.py
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Features
+
+1. Interactive Games
+Flappy Bird: A fun, stress-relieving game that helps with focus and reaction time.
+Memory Game: An exercise that improves memory and cognitive function.
+Tetris: A classic game designed to improve cognitive flexibility.
+2. Mental Health Resources
+Yoga: A variety of yoga exercises and instructor guidance available in the yoga.html and yoga.instructor.html files.
+Meditation: A meditation section combined with yoga practices for mental relaxation (available in meditationyoga.html).
+3. Consultations
+Users can book consultations with mental health professionals through the consultant.css and student.html files.
+4. Mental Health Surveys
+Users can take surveys to assess their mental health status in the surveys.html file.
+5. Dynamic User Interaction
+Games and exercises provide immediate feedback, and interactive elements help users engage with the content meaningfully.
+6. Responsive Design
+The platform is designed to work on different devices, including mobile phones, tablets, and desktop computers.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Contributing
+
+We welcome contributions to this project. If you'd like to improve the platform or add new features, please fork the repository, create a branch, and submit a pull request with your proposed changes.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+License
+
+This project is open-source and licensed under the MIT License. See the LICENSE file for more details.
+
+Feel free to modify the README according to your specific use case.
